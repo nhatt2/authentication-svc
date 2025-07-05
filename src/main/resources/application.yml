@@ -17,3 +17,10 @@ spring:
         user:
             name: admin
             password: 123456
+application:
+    security:
+        jwt:
+            secret-key: sbACEaVIuNLf49TY5ruzgtsVlZbt9GN/2C71Qi9oq/I=
+            expiration: 86400000
+            refresh-token:
+                expiration: 259200000
