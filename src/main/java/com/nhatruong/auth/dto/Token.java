@@ -1,5 +1,6 @@
 package com.nhatruong.auth.dto;
 
+import com.nhatruong.auth.constant.auth.TokenType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
